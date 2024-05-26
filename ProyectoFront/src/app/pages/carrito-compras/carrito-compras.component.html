@@ -1,0 +1,23 @@
+<div class="container mt-3">
+    <div class="row">
+      <div class="col-md-12 text-center bg-light p-3 rounded">
+        <h1>Productos</h1>
+      </div>
+      <div class="col-md-12 mt-3">
+        <div class="row">
+          <!-- Utiliza *ngFor en lugar de @for ya que estamos en Angular -->
+          <div class="col-md-4 col-xl-3 mb-4" *ngFor="let producto of productos; trackBy: trackByFn">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body text-center">
+                <h5 class="card-title"><strong>{{ producto.categoria }}</strong></h5>
+                <p class="card-text"><b>Nombre:</b> {{ producto.nombre }}</p>
+                <p class="card-text"><b>Precio:</b> {{ producto.precio }}</p>
+                <button class="btn btn-primary mt-2" (click)="agregar(producto)">Agregar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "password":"20032004",
+      "email":"ant@mail.com",
+      "role":"administrador"
+    } ,
+    {
+      "id": "2",
+      "password":"20032004",
+      "email":"kaway@mail.com",  
+      "role":"usuario"
+    }
+      
+  ],
+  "carrito": []
+}

@@ -1,0 +1,71 @@
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    background-image: url('https://www.shutterstock.com/shutterstock/photos/2281284523/display_1500/stock-vector-abstract-white-background-minimal-geometric-white-light-background-abstract-design-2281284523.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  .styled-input {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+  .styled-input input,
+  .styled-input textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background: #f8f9fa;
+  }
+  
+  .styled-input label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1rem;
+    color: #6c757d;
+    pointer-events: none;
+    transition: 0.3s;
+  }
+  
+  .styled-input input:focus + label,
+  .styled-input input:not(:placeholder-shown) + label,
+  .styled-input textarea:focus + label,
+  .styled-input textarea:not(:placeholder-shown) + label {
+    top: -20px;
+    left: 10px;
+    font-size: 0.75rem;
+    color: #007bff;
+  }
+  
+  .styled-input textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  .btn-lrg {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-lrg:hover {
+    background-color: #0056b3;
+  }
+  
+  .bg-dark {
+    background-color: rgba(0, 0, 0, 0.678) !important;
+  }
+  
